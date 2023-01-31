@@ -1,0 +1,104 @@
+header{
+    background-color:rgb(37, 36, 36);
+    height: 40px;
+}
+
+.logorotiseria{
+    height: 110px;
+    width: 110px;  
+    margin: 10px 30px;
+   
+}
+
+
+.RedesSociales{
+    font-size: 23px;
+    float: right;   
+  }
+
+.DireccionCabecera{
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-size: 13px;    
+   
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.nav-link{
+    font-size:20px;
+    color: white;
+    font-family: 'Syncopate', sans-serif;
+    margin: 40px 0px;
+     
+    
+}
+
+.nav-link:hover{
+    color: lightcoral;
+}
+
+.icoHead2{
+    color:white;
+}
+.icoHead1{
+    color:white;
+}
+.icoHead1:hover{
+    color: rgb(0, 89, 255);
+}
+
+.icoHead2:hover{
+    color: rgb(0, 179, 0);
+}
+
+.cont-logo{
+    padding:0px 0px 0px 30px;
+}
+#Inicio{
+  background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+       ),  
+  url(/img/PizzaMuzzaFondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 880px;
+  
+}
+
+img{
+  height: 520px;
+  
+}
+
+.carousel-inner{
+    border-radius: 25px;
+    margin: 30px 0px;
+    border:1px solid rgb(112, 9, 9);
+}
+
+.carousel-caption{
+    color: lightcyan;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+}
+
+.cards{
+   padding: 100px 20px;
+   border-top: 2px solid rgb(43, 43, 43);
+}
+
+#CardSeccion{
+    background-color: black;
+}
+
+.card-body{
+    background-color:rgb(39, 39, 39);
+    color: white;
+}
+
