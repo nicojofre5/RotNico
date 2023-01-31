@@ -41,12 +41,13 @@ header{
     color: lightcoral;
 }
 
-.icoHead2{
+.icoHead2,.icoHead1{
     color:white;
+ 
+    padding:0px 7px 0px 0px ;
 }
-.icoHead1{
-    color:white;
-}
+
+
 .icoHead1:hover{
     color: rgb(0, 89, 255);
 }
@@ -77,8 +78,8 @@ img{
 }
 
 .carousel-inner{
-    border-radius: 25px;
-    margin: 30px 0px;
+    border-radius: 10px;
+    margin: 40px 0px;
     border:1px solid rgb(112, 9, 9);
 }
 
