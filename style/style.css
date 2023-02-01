@@ -68,7 +68,7 @@ header{
         rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 0.8)
        ),  
-  url(/img/PizzaMuzzaFondo.jpg);
+  url(/RotNico/img/PizzaMuzzaFondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 880px;
@@ -94,7 +94,7 @@ img{
 
 
 #CardSeccion{
-    background-image:url(/img/fondobg2.jpeg);
+    background-image:url(/RotNico/img/fondobg2.jpeg);
     padding: 150px 10px;
     height: 100%;
     border-top: 1px solid grey;
