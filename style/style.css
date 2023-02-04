@@ -68,11 +68,15 @@ header{
         rgba(0, 0, 0, 0.8),
         rgba(0, 0, 0, 0.8)
        ),  
-  url(/RotNico/img/PizzaMuzzaFondo.jpg);
+  url(/img/PizzaMuzzaFondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 880px;
   
+}
+footer{
+    text-align: center;
+    margin:40px 10px
 }
 
 img{
