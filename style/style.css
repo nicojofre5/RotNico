@@ -1,3 +1,4 @@
+/*Header y navs*/
 header{
     background-color:rgb(37, 36, 36);
     height: 40px;
@@ -62,6 +63,10 @@ header{
 .cont-logo{
     padding:0px 0px 0px 30px;
 }
+
+/*Fin de header y navs*/
+
+/*Seccion de inicio*/
 #Inicio{
   background-image: linear-gradient(
         to right,
@@ -74,11 +79,10 @@ header{
   height: 880px;
   
 }
-footer{
-    text-align: center;
-    margin:40px 10px
-}
 
+#CarrouselComida{
+    margin: 10px 0px;
+}
 img{
   height: 520px;
   
@@ -91,7 +95,7 @@ img{
 }
 
 .carousel-caption{
-    color: lightcyan;
+    color:white;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 1px;
 }
@@ -116,25 +120,32 @@ img{
     color: white;
 }
 
-h3{
-    color:ligh ;
+#CardSeccion>h3{
+    color:white;
     text-align: center;
     margin:0px 0px 50px 0px;
     font-size: 35px;
     font-family: 'Abril Fatface', cursive;
+
 }
 h5{
     text-align: center;
     margin:0px 0px 10px 0px;
     
 }
+
+.subtitulo{
+    font-family: 'Syncopate', sans-serif;
+}
+.linkpedido{
+    color:  rgb(137, 0, 0);
+}
+
 h5>a{
     text-decoration: none;
 
 }
-#CarrouselComida{
-    margin: 10px 0px;
-}
+
 
 .card{
     height: 400px;
@@ -154,3 +165,14 @@ h5>a{
     background-color:grey;
 
 }
+/*Fin de seccion Cards*/
+
+
+/*Inicio de footer*/
+
+footer{
+    text-align: center;
+    margin:40px 10px
+}
+
+/*Fin de footer*/
