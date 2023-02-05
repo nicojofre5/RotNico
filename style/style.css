@@ -99,8 +99,27 @@ img{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 1px;
 }
+.btnCont{
+    margin: 2px 10px;
+}
 
+.btnCont>button{
+    background-color: rgb(158, 67, 48);
+    font-family: monospace;
+    border-radius: 17px;
+    border: 1px solid salmon;
+    font-size: 22px;
+    padding: 8px 15px;
+        
+}
 
+.btnCont>button:hover{
+    background-color: salmon;
+}
+
+/*Fin Seccion de inicio*/
+
+/*Inicio Cards*/
 #CardSeccion{
     background-color: #040404;
     background-image:linear-gradient(
