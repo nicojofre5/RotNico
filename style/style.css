@@ -1,26 +1,28 @@
 /*Header y navs*/
 header{
-    background-color:rgb(37, 36, 36);
-    height: 40px;
+    background-color:rgba(37, 36, 36, 0.715);
+    height: 180px;  
+    
 }
 
 .logorotiseria{
-    height: 110px;
-    width: 110px;  
-    margin: 10px 30px;
-   
+    height: 120px;
+    width: 120px;
+         
 }
 
 
 .RedesSociales{
     font-size: 23px;
-    float: right;   
+    display: flex;
+    justify-content:space-between;     
   }
+
 
 .DireccionCabecera{
     color: white;
     font-family: 'Merienda One', cursive;
-    font-size: 13px;    
+    font-size: 15px;
    
 }
 .navbar{
@@ -35,10 +37,10 @@ header{
 
 
 .nav-link{
-    font-size:20px;
+    font-size:17px;
     color: white;
     font-family: 'Syncopate', sans-serif;
-    margin: 40px 0px;    
+    padding: 15px;
 }
 
 .nav-link:hover{
@@ -47,8 +49,7 @@ header{
 
 .icoHead2,.icoHead1{
     color:white;
- 
-    padding:0px 7px 0px 0px ;
+    padding:0px 7px 0px 7px ;
 }
 
 
@@ -61,7 +62,8 @@ header{
 }
 
 .cont-logo{
-    padding:0px 0px 0px 30px;
+    display:flex;
+    justify-content: center;
 }
 
 /*Fin de header y navs*/
@@ -74,10 +76,14 @@ header{
         rgba(0, 0, 0, 0.8)
        ),  
   url(/img/PizzaMuzzaFondo.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  height: 880px;
+  height: 500px;
+  padding: 95px 0px;
   
+}
+#Inicio>#titulopedido{
+    margin: 0px 0px 75px;
 }
 
 #CarrouselComida{
@@ -115,6 +121,7 @@ img{
 
 .btnCont>button:hover{
     background-color: salmon;
+    transition:background-color 1.3s;
 }
 
 /*Fin Seccion de inicio*/
