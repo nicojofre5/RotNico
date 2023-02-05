@@ -85,11 +85,10 @@ header{
 #Inicio>#titulopedido{
     margin: 20px 0px 55px;
 }
-#titulopedido>p{
+#titulopedido>p,.contNumero>p{
     display: inline;
-    padding: 0px 3px;
+    padding:25px 3px;
 }
-
 #CarrouselComida{
     margin: 10px 0px;
 }
