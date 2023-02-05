@@ -79,11 +79,15 @@ header{
   background-size:cover;
   background-repeat: no-repeat;
   height: 500px;
-  padding: 95px 0px;
+  padding: 65px 0px;
   
 }
 #Inicio>#titulopedido{
-    margin: 0px 0px 75px;
+    margin: 20px 0px 55px;
+}
+#titulopedido>p{
+    display: inline;
+    padding: 0px 3px;
 }
 
 #CarrouselComida{
@@ -110,9 +114,9 @@ img{
 }
 
 .btnCont>button{
-    background-color: rgb(158, 67, 48);
+    background-color: rgb(202, 110, 92);
     font-family: monospace;
-    border-radius: 17px;
+    border-radius: 20px;
     border: 1px solid salmon;
     font-size: 22px;
     padding: 8px 15px;
@@ -120,7 +124,7 @@ img{
 }
 
 .btnCont>button:hover{
-    background-color: salmon;
+    background-color: rgb(112, 7, 7);
     transition:background-color 1.3s;
 }
 
