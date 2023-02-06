@@ -38,7 +38,7 @@ header{
 
 .nav-link{
     font-size:17px;
-    color: white;
+    color: black;
     font-family: 'Syncopate', sans-serif;
     padding: 15px;
 }
@@ -83,29 +83,16 @@ header{
   
 }
 #Inicio>#titulopedido{
+    color: white;
     margin: 20px 0px 55px;
 }
 #titulopedido>p,.contNumero>p{
+    
     display: inline;
     padding:0px 3px;
     margin: 8px 0px;
 }
-#CarrouselComida{
-    margin: 10px 0px;
-}
 
-
-.carousel-inner{
-    border-radius: 10px;
-    margin: 40px 0px;
-    border:1px solid rgb(112, 9, 9);
-}
-
-.carousel-caption{
-    color:white;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 1px;
-}
 .btnCont{
     margin: 2px 10px;
 }
@@ -118,6 +105,7 @@ header{
     font-size: 22px;
     padding: 8px 15px;
     margin: 20px 0px 0px;
+    color: white;
         
 }
 
@@ -164,6 +152,7 @@ h5{
 
 .subtitulo{
     font-family: 'Syncopate', sans-serif;
+    color: white;
 }
 .linkpedido{
     color:  rgb(137, 0, 0);
