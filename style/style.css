@@ -6,8 +6,8 @@ header{
 }
 
 .logorotiseria{
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 110px;
          
 }
 
@@ -87,15 +87,13 @@ header{
 }
 #titulopedido>p,.contNumero>p{
     display: inline;
-    padding:25px 3px;
+    padding:0px 3px;
+    margin: 8px 0px;
 }
 #CarrouselComida{
     margin: 10px 0px;
 }
-img{
-  height: 520px;
-  
-}
+
 
 .carousel-inner{
     border-radius: 10px;
@@ -119,6 +117,7 @@ img{
     border: 1px solid salmon;
     font-size: 22px;
     padding: 8px 15px;
+    margin: 20px 0px 0px;
         
 }
 
@@ -135,8 +134,8 @@ img{
     background-image:linear-gradient(
         to right,
         rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8)
-       ), url(https://i.pinimg.com/564x/d5/1a/93/d51a93aaf007f88b2b8c3f4fc69184b3.jpg);
+        rgba(0, 0, 0, 0.9)
+       ), url(/img/fondopizza2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     padding: 150px 10px;
