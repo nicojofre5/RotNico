@@ -91,26 +91,29 @@ header{
 #Inicio{
   background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.916),
         rgba(0, 0, 0, 0.8)
        ),  
   url(/img/PizzaMuzzaFondo.jpg);
   background-size:cover;
   background-repeat: no-repeat;
-  min-height: 500px;
-  padding: 65px 0px;
+  min-height: 450px;
+  padding: 85px 0px;
   
 }
 
 @media only screen and (min-width:280px) and (max-width:400px){
     #Inicio{
         min-height: 550px;
-        padding-top:100px ;
+        padding-top:140px ;
     }
+}
+#Inicio>h2{
+    color: white;
 }
 #Inicio>#titulopedido{
     color: white;
-    margin: 20px 0px 55px;
+    margin: 20px 0px 35px;
 }
 #titulopedido>p,.contNumero>p{
     display: inline;
@@ -128,8 +131,8 @@ header{
     border-radius: 20px;
     border: 1px solid salmon;
     font-size: 22px;
-    padding: 8px 15px;
-    margin: 20px 0px 0px;
+    padding: 2px 15px;
+    margin: 4px 0px 0px;
     color: white;
         
 }
