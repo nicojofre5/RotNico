@@ -6,20 +6,20 @@
 }
 header{
     background-color:rgba(37, 36, 36, 0.92);
-    height: 180px;  
+    min-height: 180px;  
     
 }
 
 .logorotiseria{
     height: 130px;
     width: 130px;
-         
 }
 
 
 .contDireccion{
     display: flex;
     justify-content: space-between; 
+    flex-wrap: wrap-reverse;
   }
 
 .rrss{
@@ -33,7 +33,21 @@ header{
     color: white;
     font-family: 'Merienda One', cursive;
     font-size: 15px;
+    padding: 7px;
    
+}
+
+@media only screen and (min-width:280px) and (max-width:400px){
+    .DireccionCabecera{
+        font-size: 10px;
+        padding: 6px;
+    }
+    .rrss{
+        font-size: 19px;
+        display: inline;
+        padding-right: 10px;
+    }
+
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.847); 
@@ -45,7 +59,7 @@ header{
     font-size:17px;
     color: white;
     font-family: 'Syncopate', sans-serif;
-    padding: 15px;
+    padding: 10px;
 }
 
 .nav-link:hover{
@@ -83,9 +97,16 @@ header{
   url(/img/PizzaMuzzaFondo.jpg);
   background-size:cover;
   background-repeat: no-repeat;
-  height: 500px;
+  min-height: 500px;
   padding: 65px 0px;
   
+}
+
+@media only screen and (min-width:280px) and (max-width:400px){
+    #Inicio{
+        min-height: 550px;
+        padding-top:100px ;
+    }
 }
 #Inicio>#titulopedido{
     color: white;
