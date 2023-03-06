@@ -146,11 +146,14 @@ header{
 
 /* Inicio de seccion nosotros */
 figure>img{
-    max-width: 270px;
+    width: 260px;
 }
 .fa-sharp{
-    font-size: 27px;
+    font-size: 30px;
     padding: 20px;
+}
+.contNosotros{
+    padding: 26px;
 }
 /* Fin de seccion nosotros */
 /*Inicio Cards*/
