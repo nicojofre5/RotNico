@@ -6,10 +6,13 @@
 }
 header{
     background-color:rgba(37, 36, 36, 0.92);
-    min-height: 180px;  
-    
+    min-height: 180px;      
 }
-
+/* font-family: 'Aclonica', sans-serif;
+font-family: 'Aldrich', sans-serif;
+font-family: 'B612', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Londrina Solid', cursive; */
 .logorotiseria{
     height: 130px;
     width: 130px;
@@ -24,15 +27,15 @@ header{
 
 .rrss{
     font-size: 26px;
-    padding: 3px 15px;
+    padding: 3px 10px;
 }
 .rrss>a{
     padding: 2px;
 }
 .DireccionCabecera{
     color: white;
-    font-family: 'Merienda One', cursive;
-    font-size: 15px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 13px;
     padding: 7px;
    
 }
@@ -50,15 +53,14 @@ header{
 
 }
 .navbar{
-    background-color: rgba(0, 0, 0, 0.847); 
+    background-color: rgba(0, 0, 0, 0.847);
+    box-shadow: 7px 15px 8px 2px rgba(0, 0, 0, 0.263); 
+   
+    
 }
-
-
-
 .nav-link{
     font-size:17px;
     color: white;
-    font-family: 'Syncopate', sans-serif;
     padding: 10px;
 }
 
@@ -99,6 +101,7 @@ header{
   background-repeat: no-repeat;
   min-height: 450px;
   padding: 85px 0px;
+
   
 }
 
@@ -110,6 +113,7 @@ header{
 }
 #Inicio>h2{
     color: white;
+    font-family: 'Aclonica', sans-serif;
 }
 #Inicio>#titulopedido{
     color: white;
@@ -119,6 +123,7 @@ header{
     display: inline;
     padding:0px 3px;
     margin: 8px 0px;
+    font-family: 'Aldrich', sans-serif;
 }
 
 .btnCont{
@@ -127,13 +132,14 @@ header{
 
 .btnCont>button{
     background-color: rgb(202, 110, 92);
-    font-family: monospace;
+    font-family: 'B612', sans-serif;
     border-radius: 20px;
     border: 1px solid salmon;
     font-size: 22px;
     padding: 2px 15px;
     margin: 4px 0px 0px;
     color: white;
+
         
 }
 
@@ -230,7 +236,20 @@ h5>a{
 
 footer{
     text-align: center;
-    margin:40px 10px
+    margin:40px 0px 0px;
+    padding: 30px;
+    background-color: #484848;
+}
+.copyright>p{
+    margin:0;
+    color: white;
+}
+p>a{
+    text-decoration: none !important;
+}
+.rrss-footer{
+    font-size:23px;
+    margin: 20px;
 }
 
 /*Fin de footer*/
