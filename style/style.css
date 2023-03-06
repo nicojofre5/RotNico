@@ -157,8 +157,7 @@ font-family: 'Londrina Solid', cursive; */
     color: rgb(222, 247, 222);
     background-color: green;
     border-radius: 58px;
-    font-size: 21px;
-    
+    font-size: 21px;    
 }
 #titulopedido>h4{
     font-family: 'Fredericka the Great', cursive;
@@ -182,22 +181,21 @@ h4>a{
     background-repeat: no-repeat;
     background-size:cover;
     padding: 150px 10px;
-    height: 100%;
+    min-height: 100vh;
     border-top: 1px solid grey;
 }
 
 .card-body{
-    background-color:rgb(39, 39, 39);
     color: white;
+    border-radius: 24px;
 }
 
 #CardSeccion>h3{
     color:white;
     text-align: center;
-    margin:0px 0px 50px 0px;
-    font-size: 35px;
-    font-family: 'B612', sans-serif;
-
+    margin:0px 0px 30px 0px;
+    font-size: 34px;
+    font-family: 'Holtwood One SC', serif;
 }
 h5{
     text-align: center;
@@ -206,46 +204,54 @@ h5{
 }
 
 .subtitulo{
-    font-family: 'B612', sans-serif;
+    font-family: 'Holtwood One SC', serif;
     color: white;
 }
-.subtitulo>a{
-    text-decoration: none;
-}
+
 .linkpedido{
-    color:  rgb(137, 0, 0);
-}
-
-h5>a{
+    color:  rgb(232, 69, 69);
     text-decoration: none;
-
 }
-
-
-
+.linkpedido:hover{
+    color: rgb(216, 135, 135);
+}
 .card{
-    height: 400px;
-    margin: 50px 40px;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    border-radius: 24px;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     cursor: pointer;
+    background-color:rgb(39, 39, 39);
+    border: 1px solid white;
+    margin: 9px 0px;
 
 }
-
+.card>img{
+    border-radius: 25px;
+    width:340px;
+}
 
 .card:hover{
     transform: scale(1.08);
     box-shadow:20px 30px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     background-color:grey;
+    
 
+}
+.contCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 18px;
+    flex-direction: row;
+}
+
+.row{
+    margin: 45px 0px 10px;
 }
 /*Fin de seccion Cards*/
 
 /* Inicio de seccion nosotros */
 figure>img{
-    width: 260px;
+    width: 2px;
 }
 .fa-sharp{
     font-size: 30px;
@@ -286,5 +292,10 @@ p>a{
     .nroTelefono>.fa-phone,.fa-clock,.nroTelefono>.fa-whatsapp{
         font-size: 15px;
     }
-    
+    #CardSeccion>h3{
+        font-size: 19px;
+    }
+    .subtitulo{
+        font-size: 14px;
+    }
 }
