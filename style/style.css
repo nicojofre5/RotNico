@@ -22,11 +22,12 @@ font-family: 'Londrina Solid', cursive; */
 .contDireccion{
     display: flex;
     justify-content: space-between; 
-    flex-wrap: wrap-reverse;
+    
+
   }
 
 .rrss{
-    font-size: 26px;
+    font-size: 22px;
     padding: 3px 10px;
 }
 .rrss>a{
@@ -36,18 +37,17 @@ font-family: 'Londrina Solid', cursive; */
     color: white;
     font-family: 'Aclonica', sans-serif;
     font-size: 13px;
-    padding: 7px;
+    padding: 7px 8px 0px;
    
 }
 
 @media only screen and (min-width:280px) and (max-width:400px){
     .DireccionCabecera{
-        font-size: 10px;
+        font-size: 12px;
         padding: 6px;
     }
     .rrss{
         font-size: 19px;
-        display: inline;
         padding-right: 10px;
     }
 
@@ -59,10 +59,10 @@ font-family: 'Londrina Solid', cursive; */
     
 }
 .nav-link{
-    font-size:17px;
+    font-size:23px;
     color: white;
     padding: 10px;
-}
+    font-family: 'Londrina Solid', cursive;}
 
 .nav-link:hover{
     color: lightcoral;
@@ -105,15 +105,11 @@ font-family: 'Londrina Solid', cursive; */
   
 }
 
-@media only screen and (min-width:280px) and (max-width:400px){
-    #Inicio{
-        min-height: 550px;
-        padding-top:140px ;
-    }
-}
+
 #Inicio>h2{
     color: white;
     font-family: 'Aclonica', sans-serif;
+    text-shadow: 4px 2px 4px rgba(220, 218, 218, 0.721);
 }
 #Inicio>#titulopedido{
     color: white;
@@ -139,13 +135,25 @@ font-family: 'Londrina Solid', cursive; */
     padding: 2px 15px;
     margin: 4px 0px 0px;
     color: white;
-
-        
 }
 
 .btnCont>button:hover{
     background-color: rgb(112, 7, 7);
     transition:background-color 1.3s;
+}
+.contNumero>.fa-phone,.fa-clock{
+    color: #858383;
+    font-size: 20px;
+}
+.fa-clock{
+    padding: 0px 3px 0px 0px;
+    font-size:20px
+}
+.contNumero>.fa-whatsapp{
+    color: rgb(222, 247, 222);
+    background-color: green;
+    border-radius: 58px;
+    font-size: 21px;
 }
 
 /*Fin Seccion de inicio*/
@@ -187,7 +195,7 @@ figure>img{
     text-align: center;
     margin:0px 0px 50px 0px;
     font-size: 35px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'B612', sans-serif;
 
 }
 h5{
@@ -197,7 +205,7 @@ h5{
 }
 
 .subtitulo{
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'B612', sans-serif;
     color: white;
 }
 .linkpedido{
@@ -253,3 +261,14 @@ p>a{
 }
 
 /*Fin de footer*/
+
+@media only screen and (min-width:280px) and (max-width:400px){
+    #Inicio{
+        min-height: 550px;
+        padding-top:140px ;
+    }
+    .contNumero>.fa-phone,.fa-clock,.contNumero>.fa-whatsapp{
+        font-size: 15px;
+    }
+    
+}
