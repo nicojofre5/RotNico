@@ -144,6 +144,15 @@ header{
 
 /*Fin Seccion de inicio*/
 
+/* Inicio de seccion nosotros */
+figure>img{
+    max-width: 270px;
+}
+.fa-sharp{
+    font-size: 27px;
+    padding: 20px;
+}
+/* Fin de seccion nosotros */
 /*Inicio Cards*/
 #CardSeccion{
     background-color: #040404;
@@ -191,10 +200,6 @@ h5>a{
 
 }
 
-.fa-store,.fa-comments-dollar{
-    font-size: 36px;
-    padding:25px;
-}
 
 
 .card{
