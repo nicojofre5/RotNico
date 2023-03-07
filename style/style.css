@@ -180,6 +180,7 @@ h4>a{
        ), url(/img/fondopizza2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+
     padding: 150px 10px;
     min-height: 100vh;
     border-top: 1px solid grey;
@@ -244,21 +245,27 @@ h5{
     flex-direction: row;
 }
 
-.row{
-    margin: 45px 0px 10px;
-}
+
 /*Fin de seccion Cards*/
 
 /* Inicio de seccion nosotros */
 figure>img{
-    width: 2px;
+    width: 290px;
 }
 .fa-sharp{
     font-size: 30px;
     padding: 20px;
 }
 .contNosotros{
-    padding: 26px;
+}
+.cont-row{
+    background-color: #484848;
+    display:flex;
+    flex-wrap: nowrap;
+
+}
+#Nosotros{
+    background-color: #8a8888;
 }
 /* Fin de seccion nosotros */
 
