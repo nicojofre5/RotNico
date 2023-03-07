@@ -320,6 +320,26 @@ iframe{
 }
 /* Fin de seccion nosotros */
 
+/* Seccion contacto */
+#Contact{
+    padding:40px;
+}
+.cont-form{
+    display: flex;
+    justify-content: center;
+    
+}
+label{
+    display:block;
+    padding: 4px;
+}
+fieldset>input{
+    width: 100%;
+}
+
+/*Fin Seccion contacto */
+
+
 /*Inicio de footer*/
 
 footer{
