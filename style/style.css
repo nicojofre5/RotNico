@@ -276,9 +276,20 @@ h5{
 }
 .card-direccion{
     border: 1px solid rgb(26, 26, 26);
-    margin: 25px 0px;
+    margin: 30px 0px 0px;
     padding:18px 12px;
-    min-height: 500px;
+    min-height: 520px;
+}
+.btn-call>div{
+    display: inline;
+    background-color: #bd2424;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-call{
+    text-align: center;
+    margin: 80px 0px 0px;
 }
 iframe{
     border:3px solid #040404 !important;
