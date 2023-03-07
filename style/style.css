@@ -249,20 +249,30 @@ h5{
 /*Fin de seccion Cards*/
 
 /* Inicio de seccion nosotros */
-figure>img{
-    width: 290px;
-}
-.fa-sharp{
+
+.card-direccion>.fa-sharp,.card-direccion>.fa-phone{
     font-size: 30px;
     padding: 20px;
+    margin: 20px 0px;
+    color: white;
 }
-.contNosotros{
+.card-direccion>p,.card-direccion>h6{
+    color: white;
+    text-align: center;   
 }
+.card-direccion>p
+
 .cont-row{
     background-color: #484848;
-    display:flex;
-    flex-wrap: nowrap;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+.card-direccion{
+    border: 1px solid rgb(26, 26, 26);
+    margin: 5px;
+    padding:0px 12px;
 }
 #Nosotros{
     background-color: #8a8888;
