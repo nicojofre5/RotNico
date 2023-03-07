@@ -265,6 +265,7 @@ h5{
 }
 .card-direccion>h6{
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .cont-row{
@@ -275,21 +276,41 @@ h5{
     align-items: baseline;
 }
 .card-direccion{
-    border: 1px solid rgb(26, 26, 26);
-    margin: 30px 0px 0px;
+    border: 1px solid rgba(26, 26, 26, 0.292);
+    margin: 45px 7px;
     padding:18px 12px;
     min-height: 520px;
 }
 .btn-call>div{
     display: inline;
-    background-color: #bd2424;
+    background-color: #851111;
     margin: 5px;
-    padding: 10px;
     border-radius: 5px;
+    border: 1px solid rgb(211, 33, 33);
+    padding:10px;
+}
+.btn-cont>.fa-phone,.btn-cont>.fa-whatsapp{
+    font-size: 18px;
+}
+.btn-cont>.fa-phone{
+    color: #a8a0a0;
+}
+.btn-cont>.fa-whatsapp{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-radius:10px;
 }
 .btn-call{
     text-align: center;
-    margin: 80px 0px 0px;
+    margin: 100px 0px 0px;
+  
+}
+.btn-subcall{
+    text-decoration: none;
+    font-family: 'B612', sans-serif;
+    color: white;
+    padding: 5px;
+
 }
 iframe{
     border:3px solid #040404 !important;
