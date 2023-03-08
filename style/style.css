@@ -322,16 +322,37 @@ iframe{
 
 /* Seccion contacto */
 #Contact{
-    padding:40px;
+    padding:40px 0px;
+    background-color: #170000f1;
+}
+#Contact>h3{
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 .cont-form{
     display: flex;
     justify-content: center;
     
 }
+form{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23ba1c1c' fill-opacity='0.18' fill-rule='evenodd'/%3E%3C/svg%3E");
+    padding: 25px 110px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.btn-submit{
+    padding: 10px;
+    margin: 13px 0px 8px;
+    background-color: #8a3220;
+    color: white;
+    border-radius: 7px;
+}
 label{
     display:block;
     padding: 4px;
+    color: white;
 }
 fieldset>input{
     width: 100%;
@@ -344,7 +365,7 @@ fieldset>input{
 
 footer{
     text-align: center;
-    margin:40px 0px 0px;
+    margin:0px 0px 0px;
     padding: 30px;
     background-color: #484848;
 }
@@ -375,5 +396,8 @@ p>a{
     }
     .subtitulo{
         font-size: 14px;
+    }
+    form{
+        padding: 12px 18px;
     }
 }
