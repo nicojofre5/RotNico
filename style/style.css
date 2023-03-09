@@ -269,14 +269,14 @@ h5{
 }
 
 .cont-row{
-    background-color: #703838f1;
+    background-color: #2c0202f1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
 }
 .card-direccion{
-    border: 1px solid #f318184a;
+    border: 1px solid #5f0b0bf6;
     margin: 45px 7px;
     padding:18px 12px;
     min-height: 520px;
@@ -316,7 +316,7 @@ iframe{
     border:3px solid #040404 !important;
 }
 #Nosotros{
-    background-color: #813535;
+    background-color: #250f0f;
 }
 /* Fin de seccion nosotros */
 
