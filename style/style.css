@@ -269,14 +269,14 @@ h5{
 }
 
 .cont-row{
-    background-color: #484848;
+    background-color: #703838f1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
 }
 .card-direccion{
-    border: 1px solid rgba(26, 26, 26, 0.292);
+    border: 1px solid #f318184a;
     margin: 45px 7px;
     padding:18px 12px;
     min-height: 520px;
@@ -316,14 +316,14 @@ iframe{
     border:3px solid #040404 !important;
 }
 #Nosotros{
-    background-color: #8a8888;
+    background-color: #813535;
 }
 /* Fin de seccion nosotros */
 
 /* Seccion contacto */
 #Contact{
     padding:40px 0px;
-    background-color: #170000f1;
+    background-color: #160101f1;
 }
 #Contact>h3{
     color: white;
@@ -367,7 +367,7 @@ footer{
     text-align: center;
     margin:0px 0px 0px;
     padding: 30px;
-    background-color: #484848;
+    background-color: #9c6969;
     font-family: 'Londrina Solid', cursive;
     font-size: 23px;
 }
