@@ -368,6 +368,8 @@ footer{
     margin:0px 0px 0px;
     padding: 30px;
     background-color: #484848;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 23px;
 }
 .copyright>p{
     margin:0;
@@ -375,9 +377,10 @@ footer{
 }
 p>a{
     text-decoration: none !important;
+    color: #e77171;
 }
 .rrss-footer{
-    font-size:23px;
+    font-size:30px;
     margin: 20px;
 }
 
