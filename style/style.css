@@ -346,7 +346,9 @@ form{
     margin: 13px 0px 8px;
     background-color: #8a3220;
     color: white;
-    border-radius: 7px;
+    border-radius: 1px;
+    width: 100%;
+    border:1px solid grey;
 }
 label{
     display:block;
@@ -374,13 +376,19 @@ footer{
     margin:0;
     color: white;
 }
-p>a{
-    text-decoration: none !important;
-    color: #e77171;
+.nombreFooter>a{
+    text-decoration: none;
+    color: #c57878;
+}
+.nombreFooter>a:hover{
+    color: #e77171e9;
 }
 .rrss-footer{
     font-size:30px;
     margin: 20px;
+}
+.link-footer>.icoHead1,.link-footer>.icoHead2{
+    padding: 10px;
 }
 
 /*Fin de footer*/
