@@ -122,6 +122,9 @@ font-family: 'Londrina Solid', cursive; */
     padding: 0 3px;
     
 }
+.pedidoSubtitle>a{
+    color:red;
+}
 
 .contNumero{
     margin-top: 20px;
@@ -270,7 +273,7 @@ h5{
     align-items: baseline;
 }
 .card-direccion{
-    border: 1px solid #47080860;
+    border: 1px solid #76545460;
     border-radius: 5px;
     margin: 45px 7px;
     padding:18px 20px;
