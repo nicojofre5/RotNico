@@ -172,12 +172,13 @@ h4>a{
 .arrow-up{
     color: white;
     font-size: 30px;
-    background-color:rgb(41, 39, 39);
+    background-color:rgb(10, 10, 10);
     border-radius: 100%;
     border: 1px solid rgb(105, 101, 101);
     width: 40px;
     height: 34px;
     text-align: center;
+    box-shadow:4px 3px 3px #00000063;
 }
 .cont-arrow-up{
     padding:0px 20px;
