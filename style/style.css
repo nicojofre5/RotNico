@@ -421,7 +421,7 @@ footer{
 #CardSeccion,#Nosotros,#Contact{
     border-top: 1px solid rgb(44, 44, 44);
 }
-
+/* Media Celular  */
 @media only screen and (min-width:280px) and (max-width:400px){
     #Inicio{
         min-height: 550px;
@@ -442,9 +442,14 @@ footer{
 }
 @media only screen and (min-width:1300px) {
     #Inicio{
-        padding-top: 230px;
+        padding-top: 180px;
     }
     .cont-arrow-up{
-        padding-top: 180px;
+        padding-top: 80px;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:600px) {
+    #Inicio{
+        padding-top: 200px;
     }
 }
