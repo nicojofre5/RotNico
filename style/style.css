@@ -433,15 +433,18 @@ footer{
     padding: 10px;
 }
 .nav-link-footer{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    width: 70px;
     
 }
 .nav-link-footer>a{
-        text-decoration: none;
+    text-decoration: none;
     font-size: 17px;
     color: white;
     font-family: 'Londrina Solid', cursive;
+}
+.cont-logo-footer{
+    margin: 30px;
 }
 
 /*Fin de footer*/
