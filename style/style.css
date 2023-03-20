@@ -4,6 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.916),
+        rgba(0, 0, 0, 0.8)
+       ),  
+  url(/img/PizzaMuzzaFondo.jpg);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
 header{
     background-color:rgba(37, 36, 36, 0.92);
     min-height: 180px;      
@@ -93,17 +104,9 @@ font-family: 'Londrina Solid', cursive; */
 
 /*Seccion de inicio*/
 #Inicio{
-  background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.916),
-        rgba(0, 0, 0, 0.8)
-       ),  
-  url(/img/PizzaMuzzaFondo.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
   min-height: 100vh;
   padding: 85px 0px;
-
+  background-attachment: fixed;
   
 }
 
@@ -199,8 +202,6 @@ h4>a{
 
 /*Inicio Cards*/
 #CardSeccion{
-    background: rgb(10,0,0);
-    background: linear-gradient(90deg, rgba(10,0,0,1) 0%, rgba(68,3,3,1) 35%, rgb(35, 2, 9) 100%);
     padding: 150px 10px;
     min-height: 100vh;
 }
@@ -439,7 +440,7 @@ footer{
 
 /*Fin de footer*/
 
-#CardSeccion,#Nosotros,#Contact{
+#Nosotros,#Contact{
     border-top: 1px solid rgb(44, 44, 44);
 }
 /* Media Celular  */
