@@ -13,7 +13,8 @@ body{
   url(/img/PizzaMuzzaFondo.jpg);
   background-size:cover;
   background-position: center;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
 }
 header{
     background-color:rgba(37, 36, 36, 0.92);
@@ -64,7 +65,7 @@ font-family: 'Londrina Solid', cursive; */
 
 }
 .navbar{
-    background-color: rgba(0, 0, 0, 0.847);
+    background-color: rgb(58, 57, 57);
     box-shadow: 7px 15px 8px 2px rgba(0, 0, 0, 0.263); 
    
     
@@ -295,7 +296,6 @@ h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
 }
 .card-direccion{
     border: 1px solid #76545460;
@@ -305,21 +305,22 @@ h5{
     min-height: 520px;
     
 }
-.btn-call>div{
+.btn-call>a{
     display: inline;
     background-color: #851111;
     margin: 5px;
     border-radius: 5px;
-    border: 1px solid rgb(211, 33, 33);
+    border: 1px solid rgb(207, 172, 172);
     padding:10px 6px;
 }
-.btn-call>div:hover{
-    background-color:rgb ;
+.btn-call>a:hover{
+    background-color: rgb(206, 82, 60);
+    color: white;
 }
 .btn-cont>.fa-phone,.btn-cont>.fa-whatsapp{
     font-size: 18px;
 }
-.btn-cont>.fa-phone{
+.btn-call>.fa-phone{
     color: #a8a0a0;
 }
 .btn-cont>.fa-whatsapp{
@@ -430,9 +431,12 @@ footer{
 .link-footer>.icoHead1,.link-footer>.icoHead2{
     padding: 10px;
 }
+.nav-link-footer{
+    display: inline-block;
+    width: 80px;
+}
 .nav-link-footer>a{
-    display: block;
-    text-decoration: none;
+        text-decoration: none;
     font-size: 17px;
     color: white;
     font-family: 'Londrina Solid', cursive;
