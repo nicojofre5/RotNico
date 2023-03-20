@@ -359,7 +359,6 @@ iframe{
 .cont-form{
     display: flex;
     justify-content: center;
-    
 }
 form{
     background-color: #000000;
@@ -371,19 +370,29 @@ form{
 .btn-submit{
     padding: 10px;
     margin: 13px 0px 8px;
-    background-color: #8a3220;
+    background-color: #011803;
     color: white;
     border-radius: 1px;
     width: 100%;
     border:1px solid grey;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 label{
     display:block;
     padding: 4px;
     color: white;
+    font-family: 'B612', sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 0px;
 }
 fieldset>input{
     width: 100%;
+    background-color:transparent;
+    color: white;
+    border-style: none;
+    border-bottom: 1px solid white;
+
 }
 
 /*Fin Seccion contacto */
