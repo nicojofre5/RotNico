@@ -341,7 +341,8 @@ h5{
 
 }
 iframe{
-    border:3px solid #040404 !important;
+    border:5px solid #848181 !important;
+    border-radius: 15px;
 }
 #Nosotros{
     background-color: #250f0f;
@@ -432,8 +433,9 @@ footer{
     padding: 10px;
 }
 .nav-link-footer{
-    display: inline-block;
-    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .nav-link-footer>a{
         text-decoration: none;
