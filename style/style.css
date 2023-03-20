@@ -62,7 +62,9 @@ font-family: 'Londrina Solid', cursive; */
     font-size:23px;
     color: white;
     padding: 10px;
-    font-family: 'Londrina Solid', cursive;}
+    font-family: 'Londrina Solid', cursive;
+}
+
 
 .nav-link:hover{
     color: lightcoral;
@@ -390,16 +392,16 @@ fieldset>input{
 /*Inicio de footer*/
 
 footer{
-    text-align: center;
     margin:0px 0px 0px;
     padding: 30px;
     background-color: #140000;
-    font-family: 'Londrina Solid', cursive;
+ 
     font-size: 23px;
 }
 .copyright>p{
     margin:0;
     color: white;
+    font-size: 15px;
 }
 .nombreFooter>a{
     text-decoration: none;
@@ -412,8 +414,18 @@ footer{
     font-size:30px;
     margin: 20px;
 }
+.rrss-footer,.copyright{
+    text-align: center;
+}
 .link-footer>.icoHead1,.link-footer>.icoHead2{
     padding: 10px;
+}
+.nav-link-footer>a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
 }
 
 /*Fin de footer*/
