@@ -4,20 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-:root{
-    --primaryfont:'B612', sans-serif;
-    --secondaryfont:'Aldrich', sans-serif;
-}
-a{
-    text-decoration: none;
-}
-html{
-    font-size: 62.5%;
-}
-body{
-    background-color: #1e0101;
-}
 header{
     background-color:rgb(55, 53, 53);
     min-height: 180px;      
@@ -64,31 +50,16 @@ header{
 
 }
 .navbar{
-    background-color: rgb(33, 33, 33);
-    box-shadow: 10px 8px 8px rgba(19, 19, 19, 0.529); 
-    position: sticky;
-    top: 0;
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.847);
+    box-shadow: 7px 15px 8px 2px rgba(0, 0, 0, 0.263); 
+   
+    
 }
-.navbar-toggler{
-    font-size:2.6em;
-}
-.navbar-toggler:focus{
-    outline:none;
-    border:none;
-    background-color: #1f1f1f;
-    box-shadow: none;
-}
-
-
-
 .nav-link{
     font-size:1.9em;
     color: white;
     padding: 10px;
-    font-family:var(--secondaryfont);
-    margin: 0px 25px;
-}
+    font-family: 'Londrina Solid', cursive;}
 
 .nav-link:hover{
     color: lightcoral;
@@ -122,12 +93,12 @@ header{
         rgba(0, 0, 0, 0.916),
         rgba(0, 0, 0, 0.8)
        ),  
-  url(../img/PizzaMuzzaFondo.jpg);
+  url(/img/PizzaMuzzaFondo.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   padding: 85px 0px;
-
+  background-attachment: fixed;
   
 }
 
@@ -225,7 +196,9 @@ h4>a{
 
 /*Inicio Cards*/
 #CardSeccion{
-    padding: 100px 10px 0px;
+    background: rgb(10,0,0);
+    background: linear-gradient(90deg, rgba(10,0,0,1) 0%, rgba(68,3,3,1) 35%, rgb(35, 2, 9) 100%);
+    padding: 150px 10px;
     min-height: 100vh;
 
 }
@@ -341,7 +314,6 @@ h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
 }
 .card-direccion{
     border: 1px solid #76545460;
@@ -351,19 +323,21 @@ h5{
     min-height: 520px;
     
 }
-.btn-call>div{
+.btn-call>a{
     display: inline;
     background-color: #851111;
     margin: 5px;
     border-radius: 5px;
-    border: 1px solid rgb(211, 33, 33);
+    border: 1px solid rgb(207, 172, 172);
     padding:10px 6px;
 }
-
+.btn-call>div:hover{
+    background-color:rgb ;
+}
 .btn-cont>.fa-phone,.btn-cont>.fa-whatsapp{
     font-size: 18px;
 }
-.btn-cont>.fa-phone{
+.btn-call>.fa-phone{
     color: #a8a0a0;
 }
 .btn-cont>.fa-whatsapp{
@@ -385,7 +359,8 @@ h5{
 
 }
 iframe{
-    border:3px solid #040404 !important;
+    border:5px solid #848181 !important;
+    border-radius: 15px;
 }
 
 /* Fin de seccion nosotros */
@@ -411,7 +386,6 @@ textarea{
 .cont-form{
     display: flex;
     justify-content: center;
-    
 }
 form{
     background-color: #000000;
@@ -424,23 +398,28 @@ form{
 }
 .btn-submit{
     padding: 10px;
-    margin: 16px 0px 0px;
+    margin: 13px 0px 8px;
     background-color: #8a3220;
     color: white;
     border-radius: 1px;
     width: 100%;
     font-size: 1.8em;
     border:1px solid grey;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 label{
     display:block;
     padding: 4px;
     color: white;
-    font-size: 1.8em;
-    font-family: var(--secondaryfont);
 }
 fieldset>input{
     width: 100%;
+    background-color:transparent;
+    color: white;
+    border-style: none;
+    border-bottom: 1px solid white;
+
 }
 .form-contact fieldset>input{
     font-size: 1.5em;
@@ -467,16 +446,16 @@ fieldset>input{
 /*Inicio de footer*/
 
 footer{
-    text-align: center;
     margin:0px 0px 0px;
     padding: 30px;
     background-color: #140000;
-    font-family: var(--secondaryfont);
-    font-size: 1.7em
+    font-family: 'Londrina Solid', cursive;
+    font-size: 23px;
 }
 .copyright>p{
     margin:0;
     color: white;
+    font-size: 15px;
 }
 .nombreFooter>a{
     text-decoration: none;
@@ -489,17 +468,18 @@ footer{
     font-size:30px;
     margin: 20px;
 }
+.rrss-footer,.copyright{
+    text-align: center;
+}
 .link-footer>.icoHead1,.link-footer>.icoHead2{
     padding: 10px;
-}
-.logorotiseria-footer{
-    width: 90px;
-    height:90px;
 }
 
 /*Fin de footer*/
 
-
+#CardSeccion,#Nosotros,#Contact{
+    border-top: 1px solid rgb(44, 44, 44);
+}
 /* Media Celular  */
 @media only screen and (min-width:280px) and (max-width:400px){
     #Inicio{
@@ -551,4 +531,5 @@ footer{
     #Inicio{
         padding-top: 200px;
     }
+    
 }
