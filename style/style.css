@@ -70,9 +70,19 @@ font-family: 'Londrina Solid', cursive; */
     position: sticky;
     top: 0;
     z-index: 1;
-   
-    
 }
+.navbar-toggler{
+    font-size:2.6em;
+}
+.navbar-toggler:focus{
+    outline:none;
+    border:none;
+    background-color: #1f1f1f;
+    box-shadow: none;
+}
+
+
+
 .nav-link{
     font-size:1.9em;
     color: white;
@@ -447,21 +457,30 @@ footer{
         padding-top:110px;
     }
     .nroTelefono>.fa-phone,.fa-clock,.nroTelefono>.fa-whatsapp{
-        font-size: 15px;
+        font-size: 1.9em;
     }
     #CardSeccion>h3{
-        font-size: 19px;
+        font-size: 2.0em;
     }
-    .subtitulo{
-        font-size: 14px;
+    .nroTelefono{
+        margin-top: 10px;
+        font-size:0.8em;
     }
+   
     form{
         padding: 12px 18px;
     }
     .cont-info-direc{
         padding-top:100px;
     }
-
+    .cont-arrow-up{
+        padding-top: 50px;
+    }
+    #titulopedido h4{
+        font-size: 1.7em;
+        padding: 4px;
+        font-weight: 100;
+    }
 }
 @media only screen and (min-width:1300px) {
     #Inicio{
