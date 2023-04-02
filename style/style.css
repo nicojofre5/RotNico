@@ -4,13 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primaryfont:'B612', sans-serif;
+    --secondaryfont:'Aldrich', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #1e0101;
+}
 header{
-    background-color:rgba(37, 36, 36, 0.92);
+    background-color:rgb(55, 53, 53);
     min-height: 180px;      
 }
+
 /* font-family: 'Aclonica', sans-serif;
-font-family: 'Aldrich', sans-serif;
-font-family: 'B612', sans-serif;
+font-family: 
+
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Londrina Solid', cursive; */
 .logorotiseria{
@@ -35,7 +47,7 @@ font-family: 'Londrina Solid', cursive; */
 }
 .DireccionCabecera{
     color: white;
-    font-family: 'Aclonica', sans-serif;
+    font-family: var(--primaryfont);
     font-size: 13px;
     padding: 7px 8px 0px;
    
@@ -53,16 +65,21 @@ font-family: 'Londrina Solid', cursive; */
 
 }
 .navbar{
-    background-color: rgba(0, 0, 0, 0.847);
-    box-shadow: 7px 15px 8px 2px rgba(0, 0, 0, 0.263); 
+    background-color: rgb(33, 33, 33);
+    box-shadow: 10px 8px 8px rgba(19, 19, 19, 0.529); 
+    position: sticky;
+    top: 0;
+    z-index: 1;
    
     
 }
 .nav-link{
-    font-size:23px;
+    font-size:1.9em;
     color: white;
     padding: 10px;
-    font-family: 'Londrina Solid', cursive;}
+    font-family:var(--secondaryfont);
+    margin: 0px 25px;
+}
 
 .nav-link:hover{
     color: lightcoral;
@@ -96,7 +113,7 @@ font-family: 'Londrina Solid', cursive; */
         rgba(0, 0, 0, 0.916),
         rgba(0, 0, 0, 0.8)
        ),  
-  url(/img/PizzaMuzzaFondo.jpg);
+  url(../img/PizzaMuzzaFondo.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -108,7 +125,7 @@ font-family: 'Londrina Solid', cursive; */
 
 #Inicio>h2{
     color: white;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: var(--secondaryfont);
     font-size: 42px;
     text-shadow: 4px 2px 4px rgba(199, 42, 42, 0.845);
 }
@@ -117,9 +134,10 @@ font-family: 'Londrina Solid', cursive; */
     margin: 6px 0px 23px;
 }
 #titulopedido>p,.contNumero>p,.nroTelefono>p{
-    font-family: 'Aldrich', sans-serif;
+    font-family: var(--secondaryfont);
     display: inline;
     padding: 0 3px;
+    font-size: 1.8em;
     
 }
 .pedidoSubtitle>a{
@@ -141,7 +159,7 @@ font-family: 'Londrina Solid', cursive; */
     padding: 2px 15px;
     margin: 4px 0px 0px;
     color: white;
-    font-family: 'Aclonica', sans-serif;
+    font-family: var(--secondaryfont);
 }
 
 .btnCont>button:hover{
@@ -163,8 +181,9 @@ font-family: 'Londrina Solid', cursive; */
     font-size: 21px;    
 }
 #titulopedido>h4{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 24px;
+    font-family: var(--primaryfont);
+    font-size: 2.3em;
+    font-weight: 300;
 }
 h4>a{
     text-decoration: none;
@@ -181,7 +200,7 @@ h4>a{
     box-shadow:4px 3px 3px #00000063;
 }
 .cont-arrow-up{
-    padding:0px 20px;
+    padding:80px 20px;
     position: fixed;
     z-index: 1;
     
@@ -197,10 +216,9 @@ h4>a{
 
 /*Inicio Cards*/
 #CardSeccion{
-    background: rgb(10,0,0);
-    background: linear-gradient(90deg, rgba(10,0,0,1) 0%, rgba(68,3,3,1) 35%, rgb(35, 2, 9) 100%);
-    padding: 150px 10px;
+    padding: 200px 10px 0px;
     min-height: 100vh;
+
 }
 
 
@@ -213,7 +231,7 @@ h4>a{
 #CardSeccion>h3{
     color:white;
     text-align: center;
-    margin:0px 0px 30px 0px;
+    margin:80px 0px 30px 0px;
     font-size: 34px;
     font-family: 'Holtwood One SC', serif;
 }
@@ -241,7 +259,7 @@ h5{
     cursor: pointer;
     background-color:rgb(39, 39, 39);
     border: 1px solid white;
-    margin: 9px 0px;
+    margin: 18px 0px;
 
 }
 .card>img{
@@ -286,9 +304,15 @@ h5{
     font-size: 25px;
     padding-top: 10px;
 }
+#Nosotros{
+    min-height: 100vh;
+    padding-top:150px;
+    
+   
+}
 
 .cont-row{
-    background-color:  #250f0f;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -310,9 +334,7 @@ h5{
     border: 1px solid rgb(211, 33, 33);
     padding:10px 6px;
 }
-.btn-call>div:hover{
-    background-color:rgb ;
-}
+
 .btn-cont>.fa-phone,.btn-cont>.fa-whatsapp{
     font-size: 18px;
 }
@@ -339,15 +361,14 @@ h5{
 iframe{
     border:3px solid #040404 !important;
 }
-#Nosotros{
-    background-color: #250f0f;
-}
+
 /* Fin de seccion nosotros */
 
 /* Seccion contacto */
 #Contact{
     padding:40px 0px;
-    background-color: #160101f1;
+    min-height: 100vh;
+
 }
 #Contact>h3{
     color: white;
@@ -395,7 +416,7 @@ footer{
     padding: 30px;
     background-color: #140000;
     font-family: 'Londrina Solid', cursive;
-    font-size: 23px;
+    font-size: 1.5em
 }
 .copyright>p{
     margin:0;
@@ -418,9 +439,7 @@ footer{
 
 /*Fin de footer*/
 
-#CardSeccion,#Nosotros,#Contact{
-    border-top: 1px solid rgb(44, 44, 44);
-}
+
 /* Media Celular  */
 @media only screen and (min-width:280px) and (max-width:400px){
     #Inicio{
@@ -439,6 +458,10 @@ footer{
     form{
         padding: 12px 18px;
     }
+    .cont-info-direc{
+        padding-top:100px;
+    }
+
 }
 @media only screen and (min-width:1300px) {
     #Inicio{
