@@ -9,6 +9,9 @@
     --primaryfont:'B612', sans-serif;
     --secondaryfont:'Aldrich', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 html{
     font-size: 62.5%;
 }
@@ -226,7 +229,7 @@ h4>a{
 
 /*Inicio Cards*/
 #CardSeccion{
-    padding: 200px 10px 0px;
+    padding: 100px 10px 0px;
     min-height: 100vh;
 
 }
@@ -236,13 +239,14 @@ h4>a{
 .card-body{
     color: white;
     border-radius: 24px;
+    font-size: 1.5em;
 }
 
 #CardSeccion>h3{
     color:white;
     text-align: center;
-    margin:80px 0px 30px 0px;
-    font-size: 34px;
+    margin:60px 0px 30px 0px;
+    font-size: 2.8em;
     font-family: 'Holtwood One SC', serif;
 }
 h5{
@@ -254,6 +258,7 @@ h5{
 .subtitulo{
     font-family: 'Holtwood One SC', serif;
     color: white;
+    font-size: 1.8em;
 }
 
 .linkpedido{
@@ -281,8 +286,10 @@ h5{
     transform: scale(1.08);
     box-shadow:20px 30px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     background-color:grey;
-    
 
+}
+.cont-comida{
+    margin-top: 70px;
 }
 .contCards{
     display: flex;
@@ -290,6 +297,9 @@ h5{
     justify-content: center;
     column-gap: 18px;
     flex-direction: row;
+}
+.card-title{
+    font-size: 1.7rem;
 }
 
 
@@ -308,10 +318,14 @@ h5{
     text-align: center;   
 }
 .card-direccion>p{
-    font-size: 16px;
+    font-size: 1.5em;
+}
+.nro-section-nosotros{
+    color: white;
+    font-size: 1.5em;
 }
 .card-direccion>h6{
-    font-size: 25px;
+    font-size: 3.2rem;
     padding-top: 10px;
 }
 #Nosotros{
@@ -320,7 +334,12 @@ h5{
     
    
 }
-
+.link-precios{
+    color: #e1563a;
+}
+.link-precios:hover{
+    color:orangered;
+}
 .cont-row{
 
     display: flex;
@@ -359,6 +378,7 @@ h5{
 .btn-call{
     text-align: center;
     margin: 100px 0px 0px;
+    font-size: 1.4em;
   
 }
 .btn-subcall{
@@ -383,8 +403,15 @@ iframe{
 #Contact>h3{
     color: white;
     padding: 20px;
+    font-size: 3em;
     text-align: center;
+    margin: 50px;
 }
+textarea{
+    width: 100%;
+    resize: none;
+}
+
 .cont-form{
     display: flex;
     justify-content: center;
@@ -393,27 +420,50 @@ iframe{
 form{
     background-color: #000000;
     background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23ba1c1c' fill-opacity='0.18' fill-rule='evenodd'/%3E%3C/svg%3E");
-    padding: 25px 110px;
+    padding: 80px 120px;
     border-radius: 10px;
     border: 1px solid grey;
+    margin-bottom: 90px;
+
 }
 .btn-submit{
     padding: 10px;
-    margin: 13px 0px 8px;
+    margin: 16px 0px 0px;
     background-color: #8a3220;
     color: white;
     border-radius: 1px;
     width: 100%;
+    font-size: 1.8em;
     border:1px solid grey;
 }
 label{
     display:block;
     padding: 4px;
     color: white;
+    font-size: 1.8em;
+    font-family: var(--secondaryfont);
 }
 fieldset>input{
     width: 100%;
 }
+.form-contact fieldset>input{
+    font-size: 1.5em;
+    color: white;
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(112, 7, 7);
+} 
+.form-contact fieldset>textarea{
+    background-color: transparent;
+    font-size: 1.5em;
+    color: white;
+    border:2px solid rgb(112, 7, 7);
+}
+.form-contact fieldset>input:focus,.form-contact fieldset>textarea{
+    outline: none;
+}
+
+
 
 /*Fin Seccion contacto */
 
@@ -425,8 +475,8 @@ footer{
     margin:0px 0px 0px;
     padding: 30px;
     background-color: #140000;
-    font-family: 'Londrina Solid', cursive;
-    font-size: 1.5em
+    font-family: var(--secondaryfont);
+    font-size: 1.7em
 }
 .copyright>p{
     margin:0;
@@ -434,7 +484,7 @@ footer{
 }
 .nombreFooter>a{
     text-decoration: none;
-    color: #c57878;
+    color: #e79898;
 }
 .nombreFooter>a:hover{
     color: #e77171e9;
@@ -445,6 +495,10 @@ footer{
 }
 .link-footer>.icoHead1,.link-footer>.icoHead2{
     padding: 10px;
+}
+.logorotiseria-footer{
+    width: 90px;
+    height:90px;
 }
 
 /*Fin de footer*/
@@ -462,13 +516,16 @@ footer{
     #CardSeccion>h3{
         font-size: 2.0em;
     }
+    #CardSeccion{
+        padding-top:180px; 
+    }
     .nroTelefono{
         margin-top: 10px;
         font-size:0.8em;
     }
    
     form{
-        padding: 12px 18px;
+        padding: 12px 80px;
     }
     .cont-info-direc{
         padding-top:100px;
@@ -481,6 +538,10 @@ footer{
         padding: 4px;
         font-weight: 100;
     }
+    #Contact{
+        padding-top: 200px;
+    }
+
 }
 @media only screen and (min-width:1300px) {
     #Inicio{
